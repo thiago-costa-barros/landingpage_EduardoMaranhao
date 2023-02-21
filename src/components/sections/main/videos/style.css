@@ -1,0 +1,39 @@
+.container {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto h2 {
+    color: #f9f9f9;
+    margin: 24px auto;
+}
+
+.section .texto hr.rounded-video {
+    width: 312px;
+    border-top: 5px solid #f9f9f9;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+
+.carousel {
+    max-width: 680px;
+    width: 90vw;
+    height: 380px;
+    margin: 36px auto 0px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    height: 300px;
+}
+
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+    visibility: hidden;
+}
+
+.carousel:hover .carousel-control-prev-icon,
+.carousel:hover .carousel-control-next-icon {
+    visibility: visible;
+}

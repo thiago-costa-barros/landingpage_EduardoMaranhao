@@ -1,0 +1,29 @@
+.list--container {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    max-width: 1140px;
+    width: 90vw;
+}
+
+.list--container span {
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+}
+
+.list--container .col01,
+.list--container .col02,
+.list--container .col03 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.list--container .col02 {
+    align-items: center;
+}
+
+.list--container .col03 {
+    align-items: end;
+}

@@ -1,0 +1,44 @@
+.jobs--container {
+    height: 100%;
+    max-width: 1140px;
+    width: 100vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.jobs--container .texto h2 {
+    color: #111111;
+    margin: 24px auto;
+}
+
+.jobs--container .texto hr.rounded-video {
+    width: 138px;
+    border-top: 5px solid #111111;
+    border-radius: 5px;
+    margin-top: -20px;
+}
+
+
+.jobs--container .jobs--row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -24px;
+}
+
+.jobs--container .jobs--row .jobs--row--line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -24px;
+}
+
+.jobs--container .jobs--row .jobs--img {
+    max-width: 258px;
+    max-width: 258px;
+    width: 100%;
+    height: 100%;
+    margin: 12px 24px;
+}
