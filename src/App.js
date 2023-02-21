@@ -1,6 +1,5 @@
 import "./App.css";
 import Footer from "./components/sections/footer";
-
 import Menu from './components/sections/header/menu';
 import Banner from "./components/sections/main/banner";
 import Depoimentos from "./components/sections/main/depoimentos";
@@ -10,9 +9,12 @@ import Videos from "./components/sections/main/videos/videos";
 
 
 const App = () => {
+
+  
+
   return (
     <>
-      <header>
+      <header id="start" >
         <Menu />
       </header>
       <main>
@@ -20,21 +22,21 @@ const App = () => {
           <div>
             <Banner />
           </div>
-          <div>
+          <div id="fotos">
             <Portfolio />
           </div>
-          <div className="videos--container">
+          <div id="videos" className="videos--container">
             <Videos />
           </div>
-          <div className="jobs">
+          <div id="clientes" className="jobs">
             <Jobs />
           </div>
-          <div>
+          <div id="bio">
             <Depoimentos />
           </div>
         </section>
       </main>
-      <footer>
+      <footer id="contatos">
         <Footer />
       </footer>
     </>

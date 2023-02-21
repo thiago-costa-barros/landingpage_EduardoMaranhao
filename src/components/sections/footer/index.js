@@ -18,10 +18,14 @@ const Footer = () => {
                 <div className="footer--thumb">
                     <nav>
                         <ul>
-                            <li><a src=""><WhatsAppOutlined className="thumb--img" style={{ fontSize: '45px', color: '#f9f9f9' }} /></a></li>
-                            <li><a src=""><InstagramOutlined className="thumb--img" style={{ fontSize: '45px', color: '#f9f9f9' }} /></a></li>
-                            <li><a src=""><YoutubeOutlined className="thumb--img" style={{ fontSize: '45px', color: '#f9f9f9' }} /></a></li>
-                            <li><a src=""><BehanceSquareOutlined className="thumb--img" style={{ fontSize: '45px', color: '#f9f9f9' }} /></a></li>
+                            <li><a href="https://wa.me/5585999911448" target={"_blank"}><WhatsAppOutlined className="thumb--img"
+                                style={{ fontSize: '45px', color: '#f9f9f9', cursor: 'pointer' }} /></a></li>
+                            <li><a href="https://www.instagram.com/_eduardomaranhao/" target={"_blank"}><InstagramOutlined className="thumb--img"
+                                style={{ fontSize: '45px', color: '#f9f9f9', cursor: 'pointer' }} /></a></li>
+                            <li><a href="https://www.youtube.com/@eduardomaranhao3822" target={"_blank"}><YoutubeOutlined className="thumb--img"
+                                style={{ fontSize: '45px', color: '#f9f9f9', cursor: 'pointer' }} /></a></li>
+                            <li><a href="https://www.behance.net/eduardomaranhao" target={"_blank"}><BehanceSquareOutlined className="thumb--img"
+                                style={{ fontSize: '45px', color: '#f9f9f9', cursor: 'pointer' }} /></a></li>
                         </ul>
                     </nav>
                 </div>
