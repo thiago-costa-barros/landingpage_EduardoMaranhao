@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landingpage_EduardoMaranhao/static/css/main.266402b7.css",
-    "main.js": "/landingpage_EduardoMaranhao/static/js/main.71c71e18.js",
+    "main.css": "/landingpage_EduardoMaranhao/static/css/main.c6b30d11.css",
+    "main.js": "/landingpage_EduardoMaranhao/static/js/main.cbf1f94d.js",
     "static/js/787.202569b7.chunk.js": "/landingpage_EduardoMaranhao/static/js/787.202569b7.chunk.js",
     "static/media/gif01.gif": "/landingpage_EduardoMaranhao/static/media/gif01.e1099ffc67cecb0696b3.gif",
     "static/media/gif02.gif": "/landingpage_EduardoMaranhao/static/media/gif02.be217561a830e7df3ce2.gif",
@@ -47,12 +47,12 @@
     "static/media/bg01.jpg": "/landingpage_EduardoMaranhao/static/media/bg01.6b40686dacd3ee30e335.jpg",
     "static/media/cliente03.png": "/landingpage_EduardoMaranhao/static/media/cliente03.846a3c59dd42aae96dfc.png",
     "index.html": "/landingpage_EduardoMaranhao/index.html",
-    "main.266402b7.css.map": "/landingpage_EduardoMaranhao/static/css/main.266402b7.css.map",
-    "main.71c71e18.js.map": "/landingpage_EduardoMaranhao/static/js/main.71c71e18.js.map",
+    "main.c6b30d11.css.map": "/landingpage_EduardoMaranhao/static/css/main.c6b30d11.css.map",
+    "main.cbf1f94d.js.map": "/landingpage_EduardoMaranhao/static/js/main.cbf1f94d.js.map",
     "787.202569b7.chunk.js.map": "/landingpage_EduardoMaranhao/static/js/787.202569b7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.266402b7.css",
-    "static/js/main.71c71e18.js"
+    "static/css/main.c6b30d11.css",
+    "static/js/main.cbf1f94d.js"
   ]
 }
