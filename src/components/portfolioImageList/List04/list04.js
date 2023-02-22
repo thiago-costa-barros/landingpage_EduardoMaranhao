@@ -16,8 +16,7 @@ const List04 = () => {
                 preview={{
                     visible: false,
                 }}
-                width={498}
-                height={182}
+                width={312}
                 src={Img01}
                 onClick={() => setVisible(true)}
             />
