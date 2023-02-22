@@ -66,13 +66,13 @@
     align-items: center;
 }
 
-.depoiment--containerls .name {
+.depoiment--container .name {
     font-size: 16px;
     font-weight: bold;
     color: #111111;
 }
 
-.depoiment--containerls .job {
+.depoiment--container .job {
     font-size: 18px;
     font-weight: bold;
     color: #111111;
@@ -84,4 +84,42 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+}
+
+.contato--area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.contato--area a {
+    margin: 0 24px;
+}
+
+@media (max-width: 425px) {
+
+    .depoiment--container p {
+        font-size: 14px;
+    }
+
+    .depoiment--container .name {
+        font-size: 12px;
+    }
+
+    .depoiment--container .job {
+        font-size: 14px;
+    }
+
+    .depoiment--container p {
+        padding: 0 30px;
+    }
+
+    .depoiment--container .testimonial .slide {
+        row-gap: 8px;
+    }
+
+    .contato--area a {
+        margin: 0 14px;
+    }
 }

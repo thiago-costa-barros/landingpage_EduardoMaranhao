@@ -27,3 +27,16 @@
 .list--container .col03 {
     align-items: end;
 }
+
+@media (max-width: 1024px),
+(max-height: 425px) {
+    .list--container {
+        flex-direction: column;
+    }
+
+    .list--container .col01,
+    .list--container .col02,
+    .list--container .col03 {
+        align-items: center;
+    }
+}

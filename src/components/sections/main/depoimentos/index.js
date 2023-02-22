@@ -2,9 +2,10 @@ import ImgBio from "../../../../assets/img_video/bio02.jpg"
 
 import "./style.css";
 import React from "react";
+import { BehanceSquareOutlined, InstagramOutlined, WhatsAppOutlined, YoutubeOutlined } from "@ant-design/icons";
 
 const Depoimentos = () => {
-    return (
+    return (<>
         <div className="depoiment--container">
             <div className="texto">
                 <h2>QUEM SOU EU</h2>
@@ -33,6 +34,17 @@ const Depoimentos = () => {
                 </div>
             </div>
         </div>
+        <div className="contato--area">
+                    <a href="https://wa.me/5585999911448" target={"_blank"}><WhatsAppOutlined className="thumb--img"
+                    style={{ fontSize: '45px', color: '#111111', cursor: 'pointer' }} /></a>
+                    <a href="https://www.instagram.com/_eduardomaranhao/" target={"_blank"}><InstagramOutlined className="thumb--img"
+                    style={{ fontSize: '45px', color: '#111111', cursor: 'pointer' }} /></a>
+                    <a href="https://www.youtube.com/@eduardomaranhao3822" target={"_blank"}><YoutubeOutlined className="thumb--img"
+                    style={{ fontSize: '45px', color: '#111111', cursor: 'pointer' }} /></a>
+                    <a href="https://www.behance.net/eduardomaranhao" target={"_blank"}><BehanceSquareOutlined className="thumb--img"
+                    style={{ fontSize: '45px', color: '#111111', cursor: 'pointer' }} /></a>
+        </div>
+    </>
     )
 }
 

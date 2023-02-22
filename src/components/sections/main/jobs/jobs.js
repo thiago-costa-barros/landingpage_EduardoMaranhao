@@ -28,22 +28,24 @@ const Jobs = () => {
                     <div >
                         <img className="jobs--img" src={Logo03} />
                     </div>
-                    <div >
-                        <img className="jobs--img" src={Logo04} />
-                    </div>
                 </div>
                 <div className="jobs--row--line">
-                    <div  >
-                        <img className="jobs--img" src={Logo05} />
-                    </div>
                     <div >
                         <img className="jobs--img" src={Logo06} />
                     </div>
-                    <div >
+                    <div  >
                         <img className="jobs--img" src={Logo07} />
                     </div>
+                </div>
+                <div className="jobs--row--line">
                     <div >
                         <img className="jobs--img" src={Logo08} />
+                    </div>
+                    <div >
+                        <img className="jobs--img" src={Logo05} />
+                    </div>
+                    <div >
+                        <img className="jobs--img" src={Logo04} />
                     </div>
                 </div>
             </div>

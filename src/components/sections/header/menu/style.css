@@ -1,5 +1,8 @@
 .menu {
+    position: fixed;
+    width: 100vw;
     height: 100px;
+    z-index: 999;
     background-color: #111111;
     color: #f9f9f9;
 }
@@ -92,3 +95,48 @@
     margin: 28px;
 }
 
+#mobile {
+    display: none;
+    margin-right: 18px;
+}
+
+#mobile i {
+    color: #f9f9f9;
+}
+
+@media screen and (max-width: 425px) {
+    .start--hiden {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+    }
+
+    #mobile i {
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    #navbar {
+        position: fixed;
+        top: 80px;
+        width: 55vw;
+        right: -300px;
+        background-color: #111111;
+        padding: 30px 0 0 0;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+
+    }
+    #navbar.active{
+        right: -50px;
+    }
+
+
+    .header--nav nav ul li {
+
+        margin-bottom: 8px;
+    }
+}
