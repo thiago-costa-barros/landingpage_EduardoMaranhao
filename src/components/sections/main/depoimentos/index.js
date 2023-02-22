@@ -19,8 +19,8 @@ const Depoimentos = () => {
                                 <img src={ImgBio} class="image" />
                                 <p>
                                     Sou um profissional apaixonado pelo o que faço.
-                                    Com experiência na área de Design, Social Media e Marketing, trabalhei em agência de
-                                    comunicação integrada que desenvolve e executa estratégias criativas para empresas e
+                                    Com experiência na área de Design, Social Media e Marketing, Direção de conteúdo, Fotografia e Vídeo. Trabalhei com diversas agência de
+                                    comunicação integrada que desenvolvem e executam estratégias criativas para digital influencers, empresas e
                                     instituições nacionais e locais.
                                 </p>
                                 <i class="bx bxs-quote-alt-left quote-icon"></i>
@@ -35,14 +35,14 @@ const Depoimentos = () => {
             </div>
         </div>
         <div className="contato--area">
-                    <a href="https://wa.me/5585999911448" target={"_blank"}><WhatsAppOutlined className="thumb--img"
-                    style={{ fontSize: '45px', color: '#111111', cursor: 'pointer' }} /></a>
-                    <a href="https://www.instagram.com/_eduardomaranhao/" target={"_blank"}><InstagramOutlined className="thumb--img"
-                    style={{ fontSize: '45px', color: '#111111', cursor: 'pointer' }} /></a>
-                    <a href="https://www.youtube.com/@eduardomaranhao3822" target={"_blank"}><YoutubeOutlined className="thumb--img"
-                    style={{ fontSize: '45px', color: '#111111', cursor: 'pointer' }} /></a>
-                    <a href="https://www.behance.net/eduardomaranhao" target={"_blank"}><BehanceSquareOutlined className="thumb--img"
-                    style={{ fontSize: '45px', color: '#111111', cursor: 'pointer' }} /></a>
+            <a href="https://wa.me/5585999911448" target={"_blank"}><WhatsAppOutlined className="thumb--img"
+                style={{ fontSize: '45px', color: '#111111', cursor: 'pointer' }} /></a>
+            <a href="https://www.instagram.com/_eduardomaranhao/" target={"_blank"}><InstagramOutlined className="thumb--img"
+                style={{ fontSize: '45px', color: '#111111', cursor: 'pointer' }} /></a>
+            <a href="https://www.youtube.com/@eduardomaranhao3822" target={"_blank"}><YoutubeOutlined className="thumb--img"
+                style={{ fontSize: '45px', color: '#111111', cursor: 'pointer' }} /></a>
+            <a href="https://www.behance.net/eduardomaranhao" target={"_blank"}><BehanceSquareOutlined className="thumb--img"
+                style={{ fontSize: '45px', color: '#111111', cursor: 'pointer' }} /></a>
         </div>
     </>
     )
